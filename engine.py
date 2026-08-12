@@ -6,7 +6,7 @@ from dnslib import DNSRecord, QTYPE, RR, A, AAAA
 
 class MotorDNS:
     def __init__(self):
-        self.ip_local = '127.0.0.1'
+        self.ip_local = '000000000000' # local do IP
         self.porta_dns = 53
         self.dns_verdadeiro = '8.8.8.8'
         self.rodando = False

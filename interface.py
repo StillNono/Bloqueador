@@ -17,7 +17,7 @@ class AplicacaoGUI:
             self.root.destroy()
             sys.exit()
 
-        # Instancia o nosso backend importado do outro arquivo
+        # Instancia o backend importado do outro arquivo
         self.motor = MotorDNS()
         self.criar_widgets()
         
