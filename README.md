@@ -2,6 +2,10 @@
 
 Aplicativo em Python com interface gráfica (Tkinter) que atua como um servidor DNS local para bloquear o acesso a domínios específicos no Windows com base em regras de agendamento.
 
+## Status do Projeto
+
+⚠️ **Em desenvolvimento contínuo:** Este software está em caráter experimental e continua em desenvolvimento ativo. O foco das próximas atualizações e refatorações é justamente solucionar e mitigar os problemas e limitações de arquitetura descritos no final deste documento.
+
 ## O que o projeto faz
 
 1. **Alteração de Rota:** Ao ser ativado, o script identifica a placa de rede ativa no Windows via `wmic` e utiliza comandos `netsh` para alterar o servidor DNS primário (IPv4 e IPv6) do sistema para a própria máquina (`127.0.0.1` e `::1`).
